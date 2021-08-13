@@ -11,7 +11,7 @@ function Landing(){
     useEffect(() => {
         dispatch(getDiets())
         dispatch(getRecipes())
-    }, [dispatch])
+    })
     
     return(
         <div className='landing_container'>

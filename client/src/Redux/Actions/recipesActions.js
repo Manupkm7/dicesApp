@@ -13,7 +13,7 @@ export function getRecipes(){
                 type: GET_RECIPES,
                 payload: json
             })
-        })
+        }).catch(error=>console.log(error))
     }
 }
 
@@ -26,7 +26,7 @@ export function getRecipeDetail(id) {
           dispatch({ 
             type: GET_RECIPES_DETAIL, 
             payload: json });
-        })
+        }).catch(error=>console.log(error))
     }
 }
 
@@ -39,7 +39,7 @@ export function searchRecipes(title) {
             type: SEARCH_RECIPES,
             payload: json
           })
-        })
+        }).catch(error=>console.log(error))
 }
 
 export function createRecipe(obj) {
@@ -58,5 +58,5 @@ export function createRecipe(obj) {
             type: CREATE_RECIPE,
             payload: json
           })
-        })
+        }).catch(error=>console.log(error))
   } 

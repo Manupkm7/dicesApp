@@ -44,11 +44,7 @@ function Home() {
         <div className="container">
               <FilterOptions />
               <DisplayRecipes recipes={currentPage}/>
-              <Pagination
-                recipePerPage={recipesPerPage} // 9
-                totalRecipes={allRecipes.length} 
-                paginate={paginate} // function
-              />
+              <Pagination recipePerPage={recipesPerPage} totalRecipes={allRecipes.length} paginate={paginate}/>
         </div>
       </div>
       )

@@ -142,7 +142,7 @@ async function postRecipe(req, res) {
 const { title, summary, spoonacularScore, healthScore, analyzedInstructions, image, diets } = req.body; 
 const id = uuidv4();
   if (!title || !summary) return res.status(404).json({})
-    const newRecipe = await Recipe.create({
+  const newRecipe = await Recipe.create({
             id: id, 
             title: req.body.title,
             summary: req.body.summary,

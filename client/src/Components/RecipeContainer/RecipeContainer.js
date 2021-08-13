@@ -12,7 +12,7 @@ const RecipeContainer = (props) => {
             <div className='diets_card'>
                 {props.recipe.diets.map((diet,index)=>(
                 <span key={index}>
-                <p>{diet}</p> 
+                <p key={index}>{diet}</p> 
                 </span>))}
             </div>
             <Link to={`/recipe/${props.recipe.id}`}>

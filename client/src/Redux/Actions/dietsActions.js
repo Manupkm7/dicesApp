@@ -7,7 +7,8 @@ export function getDiets(){
         .then(response => response.json())
         .then(json=>{
             dispatch({type: GET_DIETS, payload: json})
-})}}
+}).catch(error=>console.log(error))
+}}
 
 export const dietFilter = (type) => (dispatch, getState) =>{
     if(type === 'All'){
