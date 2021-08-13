@@ -1,0 +1,20 @@
+.pagination{
+    padding: 15px;
+}
+.page_button{
+    background-color: #d770eb;
+    border-radius: 28px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 15px 36px;
+    border: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.page_button:hover{
+	background-color:#a42abd;
+
+}

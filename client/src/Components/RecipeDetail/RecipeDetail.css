@@ -1,0 +1,43 @@
+.recipe_form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: stretch;
+}
+span{
+    padding: 3px
+}
+h1{
+    font-size: 25px;
+    margin: 25px;
+}
+img{
+    height: 140px;
+}
+ul{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+.image_detail{
+    height: 170px;
+}
+.scoreDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.summary{
+    margin: 10px;
+}
+.diets_name{
+    text-decoration: underline cornflowerblue;
+}
+.description{
+    margin: 15px;
+    padding: 12px;
+}
+

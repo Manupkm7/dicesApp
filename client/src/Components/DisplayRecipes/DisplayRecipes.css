@@ -1,0 +1,8 @@
+.display_recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
